@@ -1,4 +1,6 @@
 // 参考ページ https://sites.google.com/view/gutugutu3030/other/processingdehuamianquantinosukurinshottowocuoru
+// Processing 3 (https://processing.org) による開発
+// BSD2項ライセンスとする。 (c) T.Hori
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -10,13 +12,13 @@ int WW=320;
 int HH=640;
 
 void setup() {
-  size(640, 200);
-  surface.setLocation(640,500);
+  size(640, 200); //通知する(色を付ける)ウインドウのサイズ
+  surface.setLocation(640,500); //通知するウインドウの表示位置
   frameRate(5);
 }
 
 void draw() {
-  background(64);
+  background(64); //グレーにしておく
   PImage img=screenshot();
   img.loadPixels();
   int red=0;
@@ -25,8 +27,8 @@ void draw() {
       red++;
     }
   }
-  if(red>100*100){
-    background(255,255,0);
+  if(red>100*100){ //赤色の画素が10000個以上あったら
+    background(255,0,0); // 赤にする
   }
 }
 
@@ -42,7 +44,7 @@ PImage screenshot() {//スクショをPImage型で保存
   return null;
 }
 
-PImage b2p(BufferedImage img1) {//BufferedImageをPImageに変更
+PImage b2p(BufferedImage img1) {// 画面左端WW幅 真ん中のHH高さのBufferedImageをPImageに変更
   PImage img2 = createImage(WW, HH, ARGB);
   Raster r=img1.getRaster();
   int cnt=0;
