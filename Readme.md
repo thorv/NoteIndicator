@@ -25,3 +25,8 @@ V0.1.0では、とりあえずでっち上げバージョンなので、
 
 実用想定動作・反応
 ![実用想定動作・反応](https://github.com/thorv/NoteIndicator/blob/image/2026-02-02_225524.png)
+
+
+## インストールについて
+とくにインストーラは作っていません。ReleaseからNoteIndicator.zipファイルをダウンロードして、解凍したらNoteIndicatorフォルダの中にあるNoteIndicator.exeを起動してください(フォルダからは出さないでください。他のフォルダ/ファイルと一緒にいないと動きません)。
+NoteIndicator.exeのショートカットを作成して他の場所に配置することもできます。
