@@ -15,7 +15,13 @@ V0.1.0では、とりあえずでっち上げバージョンなので、
 あたりは設定できるようにするべきでしょう。
 
 基本動作・未反応時
-![基本動作・未反応](2026-02-02_225352.png)
-[基本動作・反応]()
-[実用想定動作・未反応]()
-[実用想定動作・反応]()
+![基本動作・未反応](https://github.com/thorv/NoteIndicator/blob/image/2026-02-02_225352.png)
+
+基本動作・反応
+![基本動作・反応](https://github.com/thorv/NoteIndicator/blob/image/2026-02-02_225334.png)
+
+実用想定動作・未反応
+![実用想定動作・未反応](https://github.com/thorv/NoteIndicator/blob/image/2026-02-02_225605.png)
+
+実用想定動作・反応
+![実用想定動作・反応](https://github.com/thorv/NoteIndicator/blob/image/2026-02-02_225524.png)
